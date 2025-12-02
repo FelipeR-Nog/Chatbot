@@ -32,7 +32,7 @@ Este projeto foi desenvolvido com muito carinho, **porém o desenvolvimento foi 
 ### 1. Incompatibilidade com iPhone (iOS) 🍎
 Aparentemente, a biblioteca utilizada (`whatsapp-web.js`) apresentou falha quando o número estava rodando em um **iPhone**. O cliente decidiu não prosseguir devido a essa limitação de hardware.
 
-### 2. O Bug do "Flood" ao Reiniciar 🌊
+### 2. O Bug do "Flodando ao Reiniciar 🌊
 Existe um comportamento indesejado no gerenciamento de estado/sessão:
 * Se o bot for desligado e ligado novamente no mesmo dia, ele tende a **ler e processar todas as mensagens recebidas naquele dia novamente**.
 * Isso causa um "flood" de respostas repetidas para os usuários, respondendo mensagens antigas como se fossem novas.
